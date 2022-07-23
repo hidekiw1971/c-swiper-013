@@ -95,7 +95,6 @@ html {
 /* Set core body defaults */
 body {
   min-height: 100vh;
-  text-rendering: optimizeSpeed;
   line-height: 1.5;
 }
 
@@ -173,6 +172,11 @@ select::-ms-expand {
   display: none;
 }
 
+.swiper1 {
+  margin-bottom: 50px;
+  margin-bottom: 3.125rem;
+}
+
 .swiper-slide {
   padding-top: 66.6%;
   position: relative;
@@ -207,14 +211,19 @@ select::-ms-expand {
             transform: scale(1.15);
   }
 }
-.swiper-slide-active .slide-img,
-.swiper-slide-duplicate-active .slide-img,
-.swiper-slide-prev .slide-img {
+.swiper-slide-active .slide-img1,
+.swiper-slide-duplicate-active .slide-img1,
+.swiper-slide-prev .slide-img1 {
   -webkit-animation: zoomUp 10s linear 0s 1 normal both;
           animation: zoomUp 10s linear 0s 1 normal both;
 }
 
-.slide-img img {
+.slide-img1 img {
   display: block;
+}
+
+.swiper2 {
+  margin-bottom: 50px;
+  margin-bottom: 3.125rem;
 }
 /*# sourceMappingURL=styles.css.map */
