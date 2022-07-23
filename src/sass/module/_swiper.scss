@@ -1,5 +1,9 @@
 @use "global" as *;
 // swiper1
+.swiper1 {
+  margin-bottom: rem(50);
+}
+
 .swiper-slide {
   padding-top: 66.6%;
   position: relative;
@@ -21,11 +25,16 @@
   }
 }
 
-.swiper-slide-active .slide-img,
-.swiper-slide-duplicate-active .slide-img,
-.swiper-slide-prev .slide-img {
+.swiper-slide-active .slide-img1,
+.swiper-slide-duplicate-active .slide-img1,
+.swiper-slide-prev .slide-img1 {
   animation: zoomUp 10s linear 0s 1 normal both;
 }
-.slide-img img {
+.slide-img1 img {
   display: block;
+}
+
+// swiper2
+.swiper2 {
+  margin-bottom: rem(50);
 }
