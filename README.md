@@ -4,8 +4,9 @@
 
 ## portfolio url:
 
-- https://c-0000.wtb.cfbx.jp/
+- https://c-0089.wtb.cfbx.jp/
 
 ## 更新履歴
 
 - 2022/07/23 初版 作成完了
+- 2022/07/23 16:33 swiper@8(zoomOut)シングルでの実装できた。
